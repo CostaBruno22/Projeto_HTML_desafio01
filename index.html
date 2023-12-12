@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML!</title>
+</head>
+
+<body style="background-color: #EEE2DE;">
+    <h1 id="inicio" style="font-family: Arial, Helvetica, sans-serif;">Primeiros passos no HTML.</h1>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Este é um pegueno <strong><mark
+                style="color: #B31312;">resumo</mark></strong> sobre o que foi aprendido até o momento, sobre o <abbr
+            style="text-decoration: none;" title="Hypertext Markup Language">HTML</abbr> e suas tags.
+    </p>
+    <hr>
+    <h2 style="font-family: Arial, Helvetica, sans-serif;">Indice</h2>
+    <ul style="font-family: Arial, Helvetica, sans-serif;">
+        <li style="color: #B31312;"><a href="#o_que_e" style="text-decoration: none;"><i><strong>O que é o <abbr
+                            style="text-decoration: none;"
+                            title="Hypertext Markup Language">HTML</abbr>?</strong></i></a></li>
+        <li style="color: #B31312;"><a href="#estrutura_basica" style="text-decoration: none;"><i><strong>Estrutura
+                        básica do <abbr style="text-decoration: none;"
+                            title="Hypertext Markup Language">HTML</abbr></strong></i></a></li>
+        <li style="color: #B31312;"><a href="#tags_atributos" style="text-decoration: none;"><i><strong>Como funcionam
+                        as tags e seus atributos no <abbr style="text-decoration: none;"
+                            title="Hypertext Markup Language">HTML</abbr>?</strong></i></a></li>
+        <li style="color: #B31312;"><a href="#tags_texto" style="text-decoration: none;"><i><strong>Tags de Texto no
+                        <abbr style="text-decoration: none;"
+                            title="Hypertext Markup Language">HTML</abbr></strong></i></a></li>
+        <li style="color: #B31312;"><a href="#tags_listas" style="text-decoration: none;"><i><strong>Tags de Listas no
+                        <abbr style="text-decoration: none;"
+                            title="Hypertext Markup Language">HTML</abbr></strong></i></a></li>
+        <li style="color: #B31312;"><a href="#tags_links" style="text-decoration: none;"><i><strong>Tag de Link no <abbr
+                            style="text-decoration: none;"
+                            title="Hypertext Markup Language">HTML</abbr></strong></i></a></li>
+        <li style="color: #B31312;"><a href="#material" style="text-decoration: none;"><i><strong>Materiais adicionais
+                        sobre <abbr style="text-decoration: none;"
+                            title="Hypertext Markup Language">HTML</abbr></strong></i></a></li>
+    </ul>
+    <h2 id="o_que_e" style="font-family: Arial, Helvetica, sans-serif;">O que é o HTML?</h2>
+
+    <p style="font-family: Arial, Helvetica, sans-serif;"><abbr style="text-decoration: none;"
+            title="Hypertext Markup Language">HTML</abbr> é a linguagem de <strong><mark
+                style="color: #B31312;">marcação</mark></strong> padrão para a criação e design de páginas web. Ele
+        fornece uma estrutura básica para documentos, permitindo a formatação e organização de conteúdo, além de
+        possibilitar a incorporação de elementos multimídia e interatividade.</p>
+    <h3 style="font-family: Arial, Helvetica, sans-serif;">Uso do HTML:</h3>
+    <ol style="font-family: Arial, Helvetica, sans-serif;">
+        <li style="color: #B31312;"><strong><i><u>Estruturação de documentos web.</u></i></strong></li>
+        <li style="color: #B31312;"><strong><i><u>Apresentação de textos, imagens, links e outros
+                        elementos.</u></i></strong></li>
+        <li style="color: #B31312;"><strong><i><u>Incorporação de multimídia (vídeos, áudio).</u></i></strong></li>
+        <li style="color: #B31312;"><strong><i><u>Criação de formulários interativos.</u></i></strong></li>
+        <li style="color: #B31312;"><strong><i><u>Facilita a acessibilidade web.</u></i></strong></li>
+    </ol>
+    <h4 style="font-family: Arial, Helvetica, sans-serif;">Qualidades do HTML:</h4>
+    <ul style="font-family: Arial, Helvetica, sans-serif;">
+        <li style="color: #B31312;"><strong><i><u>Simplicidade e fácil aprendizado.</u></i></strong></li>
+        <blockquote><strong>Tim Berners-Lee:</strong> <i> "HTML é uma linguagem de marcação, não uma linguagem de
+                programação, enfatizando sua função fundamental na criação de documentos web de facil aprendizado e
+                muitas possibilidades."</i></blockquote>
+        <li style="color: #B31312;"><strong><i><u>Compatibilidade com diferentes navegadores.</u></i></strong></li>
+        <blockquote><strong>Jeffrey Zeldman:</strong> <i> " A capacidade do HTML de ser interpretado de maneira coesa
+                por uma variedade de navegadores é um testemunho de seu design inclusivo, conectando pessoas em uma rede
+                global de informação de forma harmoniosa e eficaz."</i></blockquote>
+        <li style="color: #B31312;"><strong><i><u>Suporte a diversas tecnologias e padrões web.</u></i></strong></li>
+        <blockquote><strong>Brendan Eich:</strong> <i> "Destaco aqui a complexidade e a potência do HTML, que vem sempre
+                refletindo a evolução contínua da linguagem."</i></blockquote>
+
+    </ul>
+    <small><a href="#inicio">[voltar ao indice]</a></small>
+
+    <h2 id="estrutura_basica" style="font-family: Arial, Helvetica, sans-serif;">Estrutura básica do HTML:</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif;">A estrutura básica de um documento HTML é composta por
+        elementos essenciais que definem a organização e o conteúdo da página. Aqui está um resumo da estrutura típica:
+    </p>
+    <ul style="font-family: Arial, Helvetica, sans-serif;">
+        <li style="color: #B31312;"><strong> DocType:</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;"> Declara o tipo de documento e versão do HTML que está
+            sendo utilizado <mark style="color: #B31312;">(por exemplo, HTML5)</mark>.</p>
+        <li style="color: #B31312;"><strong> Html:</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">O elemento raiz que engloba todo o conteúdo da página.
+        </p>
+        <li style="color: #B31312;"><strong> Head:</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Contém informações meta sobre o documento, como título,
+            metadados, estilos e links para scripts. </p>
+        <li style="color: #B31312;"><strong> Body:</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Contém o conteúdo visível da página, como texto, imagens,
+            links, etc.</p>
+
+    </ul>
+    <small><a href="#inicio">[voltar ao indice]</a></small>
+
+    <h2 id="tags_atributos" style="font-family: Arial, Helvetica, sans-serif;">Como funcionam as tags e seus atributos
+        no HTML:</h2>
+    <h3 style="font-family: Arial, Helvetica, sans-serif;">Tags</h3>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Tags são elementos fundamentais em HTML que envolvem ou
+        delimitam partes específicas de conteúdo em uma página web.
+
+        Elas são representadas por pares de tags de abertura e fechamento, envolvendo o conteúdo entre elas.<mark
+            style="color: #B31312;"> Exemplo: <strong>tagConteúdo/tag</strong></mark>.</p>
+    </p>
+
+    <h3 style="font-family: Arial, Helvetica, sans-serif;">Atributos</h3>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Atributos fornecem informações adicionais sobre uma tag e são
+        geralmente incluídos na tag de abertura.
+        Eles consistem em um nome e um valor, separados por um sinal de igual (=), e são inseridos dentro do par de
+        aspas duplas (").
+        <mark style="color: #B31312;"> Exemplo: <strong>o atributo <u>src</u> na tag <u>img</u></strong></mark>.
+    </p>
+    </p>
+
+    <small><a href="#inicio">[voltar ao indice]</a></small>
+
+    <h2 id="tags_texto" style="font-family: Arial, Helvetica, sans-serif;">Tags de Texto no no HTML:</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif;">As tags de texto em HTML são elementos que envolvem ou
+        delimitam blocos específicos de texto em uma página web.
+        Elas fornecem estrutura e semântica ao conteúdo textual, <mark style="color: #B31312;">permitindo que os
+            navegadores interpretem e exibam o texto de maneira apropriada</mark>.</p>
+    <h3 style="font-family: Arial, Helvetica, sans-serif;">Exemplos de Tags de Texto:</h3>
+    <ul style="font-family: Arial, Helvetica, sans-serif;">
+        <li style="color: #B31312;"><strong>Tag 'p'</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Define um parágrafo.</p>
+        <li style="color: #B31312;"><strong>Tag 'h1' a 'h6'</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Define cabeçalhos de diferentes níveis, indicando a
+            hierarquia do texto.</p>
+        <li style="color: #B31312;"><strong>Tag 'strong'</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Indica que o texto deve ser enfatizado, geralmente exibido
+            em negrito.</p>
+        <li style="color: #B31312;"><strong>Tag 'mark'</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Indica que o texto deve ser enfatizado, geralmente exibido
+            como um marca-texto.</p>
+        <li style="color: #B31312;"><strong>Tag 'i'</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Indica que o texto deve ser apresentado com a formatação
+            italica.</p>
+    </ul>
+
+    <small><a href="#inicio">[voltar ao indice]</a></small>
+
+    <h2 id="tags_listas" style="font-family: Arial, Helvetica, sans-serif;">Tags de Listas no HTML:</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif;">As tags de listas em HTML são elementos utilizados para criar
+        listas de itens na página web. Elas fornecem uma estrutura semântica que facilita a organização e apresentação
+        de informações de maneira ordenada ou não ordenada.
+    <h3 style="font-family: Arial, Helvetica, sans-serif;">Exemplos de Tags de Listas:</h3>
+    <ul style="font-family: Arial, Helvetica, sans-serif;">
+        <li style="color: #B31312;"><strong>Tag 'ul'</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Cria uma lista em que a ordem dos itens não é
+            significativa. Os itens são geralmente marcados com pontos, traços ou outros marcadores.</p>
+        <li style="color: #B31312;"><strong>Tag 'ol'</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Cria uma lista em que a ordem dos itens é significativa.
+            Os itens são numerados automaticamente.</p>
+        <li style="color: #B31312;"><strong>Tag 'li'</strong></li>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Define cada item individual dentro de uma lista ('ul' ou
+            'ol').</p>
+
+    </ul>
+    <small><a href="#inicio">[voltar ao indice]</a></small>
+
+    <h2 id="tags_links" style="font-family: Arial, Helvetica, sans-serif;">Tag de Link no HTML:</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif;">As tags de link em HTML são elementos usados para criar
+        hiperlinks,<mark style="color: #B31312;"> permitindo a navegação entre diferentes páginas ou recursos na
+            web</mark>. A tag principal para criar links em HTML é 'a', e ela é essencial para a construção de páginas
+        web interativas.</p>
+    <h3 style="font-family: Arial, Helvetica, sans-serif;">Como funciona?</h3>
+    <p style="font-family: Arial, Helvetica, sans-serif;">A <mark style="color: #B31312;"><strong>tag
+                'a'</strong></mark> é usada para criar hiperlinks, que conectam uma página web a outra ou vinculam
+        recursos como documentos, imagens, vídeos, entre outros.
+        O <mark style="color: #B31312;"><strong>atributo 'href'</strong></mark> (Hypertext Reference) é usado para
+        especificar o destino do link (URL da página ou recurso).</p>
+    <h4 style="font-family: Arial, Helvetica, sans-serif;">Exemplo:</h4>
+    <p style="font-family: Arial, Helvetica, sans-serif;"><mark style="color: #B31312;"><strong>'a'
+                href="https://www.exemplo.com">Visitar Exemplo.com'/a'</strong></mark> Neste exemplo, o texto "Visitar
+        Exemplo.com" é o texto de âncora que será exibido na página como um link clicável. O atributo 'href' contém o
+        URL para onde o link direciona.</p>
+    <small><a href="#inicio">[voltar ao indice]</a></small>
+
+    <h2 id="material" style="font-family: Arial, Helvetica, sans-serif;">Materiais adicionais sobre o HTML:</h2>
+
+    <li style="color: #B31312;"><strong>W<sup>3</sup> Schools</strong></li>
+    <h5 style="font-family: Arial, Helvetica, sans-serif;"><a href="https://www.w3schools.com/html/" target="_blank"
+            style="font-family: Arial, Helvetica, sans-serif; text-decoration: none;">Tutoriais</a></h5>
+    <li style="color: #B31312;"><strong>MDN Web <sub>Docs</sub></strong></li>
+    <h5 style="font-family: Arial, Helvetica, sans-serif;"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank" style="font-family: Arial, Helvetica, sans-serif; text-decoration: none;">Tutoriais</a></h5>
+    <li style="color: #B31312;"><strong>Canal: Programação Web</strong></li>
+    <h5 style="font-family: Arial, Helvetica, sans-serif;"><a
+            href="https://www.youtube.com/watch?v=sj0p9O85AIg&list=PL2Fdisxwzt_cajoGVWTx44wM6Ht09QJ3A" target="_blank"
+            style="font-family: Arial, Helvetica, sans-serif; text-decoration: none;">Vídeos</a></h5>
+    <li style="color: #B31312;"><strong>Canal: Curso em Vídeo</strong></li>
+    <h5 style="font-family: Arial, Helvetica, sans-serif;"><a
+            href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank"
+            style="font-family: Arial, Helvetica, sans-serif; text-decoration: none;">Vídeos</a></h5>
+    <small><a href="#inicio">[voltar ao indice]</a></small>
+    <hr>
+
+
+    <h2 id="material" style="font-family: Arial, Helvetica, sans-serif;">Resumo da obra:</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Em conclusão, o <abbr style="text-decoration: none;"
+            title="Hypertext Markup Language">HTML</abbr> desempenha um papel fundamental na construção e estruturação
+        de páginas web. Suas <mark style="color: #B31312;">tags</mark>, ao oferecerem uma linguagem de marcação simples
+        e intuitiva, permitem a definição clara de elementos e a organização lógica do conteúdo. Desde <strong
+            style="color: #B31312;"><u>cabeçalhos e parágrafos até links e listas</u></strong> , as <mark
+            style="color: #B31312;">tags</mark> <abbr style="text-decoration: none;"
+            title="Hypertext Markup Language">HTML</abbr> proporcionam uma base sólida
+        para a criação de interfaces web acessíveis e interativas.
+
+        A versatilidade do <abbr style="text-decoration: none;" title="Hypertext Markup Language">HTML</abbr> é evidente
+        nas diversas <mark style="color: #B31312;">tags</mark> disponíveis, cada uma com uma função específica,
+        permitindo a incorporação de multimídia, a
+        criação de formulários e a navegação eficiente entre páginas. A semântica das tags não apenas facilita a
+        compreensão humana do conteúdo, mas também contribui para a otimização de motores de busca, melhorando a
+        visibilidade online.
+
+        Ao aprender <abbr style="text-decoration: none;" title="Hypertext Markup Language">HTML</abbr>, desenvolvedores
+        têm a oportunidade de dominar a linguagem essencial da web e estabelecer as bases necessárias para explorar
+        tecnologias adicionais,<strong
+        style="color: #B31312;"><u>como CSS e JavaScript</u></strong>. A constante evolução do <abbr style="text-decoration: none;"
+            title="Hypertext Markup Language">HTML</abbr> reflete seu papel dinâmico no cenário digital, garantindo que
+        continue a ser uma ferramenta indispensável para a criação de experiências online inovadoras e acessíveis.</p>
+
+
+
+
+
+
+
+</body>
+
+</html>
